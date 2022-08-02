@@ -1,0 +1,30 @@
+header {
+  position: relative;
+  text-align: center;
+  background-color: #EEE;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    transition: .2s linear;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    color: #666;
+    text-decoration: underline;
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+}

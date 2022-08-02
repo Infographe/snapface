@@ -1,0 +1,29 @@
+
+
+.landing-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.landing-links {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  box-shadow: darkgray 2px 4px 8px;
+  transition: .2s linear;
+
+  &:hover {
+    background-color: #333;
+    color: #f1f1f1;
+  }
+}

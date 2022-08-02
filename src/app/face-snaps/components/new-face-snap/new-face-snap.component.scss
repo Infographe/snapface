@@ -1,0 +1,50 @@
+.form-card, .face-snap-card {
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
+}
+
+.face-snap-card {
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+
+.form-group {
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, textarea {
+  width: 50%;
+  text-align: center;
+}
+
+.action-buttons {
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  margin: 20px auto;
+  box-shadow: lightgray 3px 3px 7px;
+  color: #333;
+
+  &:active {
+    box-shadow: lightgray 0 0 5px;
+  }
+}
